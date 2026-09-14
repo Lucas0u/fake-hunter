@@ -47,7 +47,38 @@ flat cartoon digital illustration, soft outlines, subtle paper texture, soft sha
 flat cartoon digital illustration, soft outlines, subtle paper texture, soft shadows, color palette navy #1B2A41, blue #2F6690, yellow #F4B942, green #3FA34D, red #D64545, cream #F5F1E8, gray #8A94A6, no text, no letters, no numbers, no watermark. Full-body character of a young fact-checker journalist: button-up shirt with rolled sleeves, press badge on a lanyard, holding a magnifying glass, focused expression; standing pose; plain solid cream background; portrait orientation
 ```
 
-### A3. Imagens das notícias (gerar em 16:9, redimensionar para 800x450)
+### A3. Imagens padrão por canal (ALTERNATIVA ECONÔMICA – 5 créditos em vez de 18)
+
+Em vez de uma imagem por notícia, gere uma por tipo de canal e arraste a mesma imagem no campo
+**Imagem** de todas as notícias daquele canal. Ou gere só a primeira e coloque no campo
+**Imagem Padrão** do objeto `PainelNoticia` (vale para todas que não tiverem imagem própria).
+
+**canal_whatsapp.png** — usar em: Feriado, ChaBoldo, TaxaBanco, TarifaZero, NovaEspecieSapo
+```
+flat cartoon digital illustration, soft outlines, subtle paper texture, soft shadows, color palette navy #1B2A41, blue #2F6690, yellow #F4B942, green #3FA34D, red #D64545, cream #F5F1E8, gray #8A94A6, no text, no letters, no numbers, no watermark. A smartphone held in a hand showing a generic green chat app with several forwarded message bubbles and a small forward-arrow symbol, chain of arrows spreading to other phones in the background; 16:9
+```
+
+**canal_portal_oficial.png** — usar em: VacinaGripe, ChuvaForte, VagasProgramacao, KitsEscolares
+```
+flat cartoon digital illustration, soft outlines, subtle paper texture, soft shadows, color palette navy #1B2A41, blue #2F6690, yellow #F4B942, green #3FA34D, red #D64545, cream #F5F1E8, gray #8A94A6, no text, no letters, no numbers, no watermark. A laptop screen showing an official government website layout with a coat-of-arms emblem, a padlock icon in the address bar and a verified checkmark badge, a public building with columns in the background; 16:9
+```
+
+**canal_jornal.png** — usar em: QuadraEscola, PrefeitoInvestigado
+```
+flat cartoon digital illustration, soft outlines, subtle paper texture, soft shadows, color palette navy #1B2A41, blue #2F6690, yellow #F4B942, green #3FA34D, red #D64545, cream #F5F1E8, gray #8A94A6, no text, no letters, no numbers, no watermark. A folded printed newspaper on a wooden desk next to a cup of coffee and reading glasses, blank headline blocks and photo placeholders, morning light; 16:9
+```
+
+**canal_blog.png** — usar em: VirusBomDia, TaxaPix
+```
+flat cartoon digital illustration, soft outlines, subtle paper texture, soft shadows, color palette navy #1B2A41, blue #2F6690, yellow #F4B942, green #3FA34D, red #D64545, cream #F5F1E8, gray #8A94A6, no text, no letters, no numbers, no watermark. A computer screen showing a cluttered anonymous blog page full of flashing ad banners and pop-ups, an eye symbol in the header, dark room lit only by the screen; 16:9
+```
+
+**canal_rede_social.png** — usar em: CidadeViolenta, CelularCancer, RemedioFalsificado, RioSeco, DescontoCelular
+```
+flat cartoon digital illustration, soft outlines, subtle paper texture, soft shadows, color palette navy #1B2A41, blue #2F6690, yellow #F4B942, green #3FA34D, red #D64545, cream #F5F1E8, gray #8A94A6, no text, no letters, no numbers, no watermark. A smartphone showing a generic social media feed with a viral post, heart and share icons floating around it, many small notification bubbles, bright colorful mood; 16:9
+```
+
+### A4. Imagens das notícias (VERSÃO COMPLETA – uma por notícia, gerar em 16:9, redimensionar para 800x450)
 
 **not_feriado.png**
 ```

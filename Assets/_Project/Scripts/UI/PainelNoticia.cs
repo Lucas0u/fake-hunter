@@ -19,6 +19,7 @@ public class PainelNoticia : MonoBehaviour
     public TMP_Text txtFonte;
     public TMP_Text txtData;
     public Image imgNoticia;          // opcional
+    public Sprite imagemPadrao;       // opcional: usada quando a notícia não tem imagem própria
     public Image imgAvatarAutor;      // opcional
     public TMP_Text txtProgresso;     // opcional: "Notícia 2 de 6"
 
@@ -96,8 +97,9 @@ public class PainelNoticia : MonoBehaviour
 
         if (imgNoticia != null)
         {
-            imgNoticia.sprite = noticiaAtual.imagem;
-            imgNoticia.enabled = noticiaAtual.imagem != null;
+            Sprite img = noticiaAtual.imagem != null ? noticiaAtual.imagem : imagemPadrao;
+            imgNoticia.sprite = img;
+            imgNoticia.enabled = img != null;
         }
 
         if (imgAvatarAutor != null)
