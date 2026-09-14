@@ -39,8 +39,16 @@ Assets/_Project/
     └── UI/         PainelNoticia, MenuPrincipal
 ```
 
+## Status e verificação
+
+O projeto ainda **não foi validado dentro do Unity** (cena, scripts e assets foram montados por ferramentas externas).
+Antes de continuar o desenvolvimento, siga o checklist em [PENDENCIAS.md](PENDENCIAS.md), seção 1:
+abrir o projeto, conferir o Console sem erros e testar Menu → Gameplay → fim de fase → game over.
+O mesmo arquivo lista as artes que faltam, melhorias de código e tarefas do repositório.
+
 ## Documentação
 
+- [PENDENCIAS.md](PENDENCIAS.md) – checklist de verificação e tudo que ainda falta.
 - [COMO_CONFIGURAR.md](COMO_CONFIGURAR.md) – como ligar os novos campos no Inspector.
 - [PROMPTS_IMAGENS.md](PROMPTS_IMAGENS.md) – lista de imagens necessárias, tamanhos e prompts.
 
