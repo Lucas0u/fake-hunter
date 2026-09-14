@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Noticia
   titulo: "Loja liquida celulares com 90% de desconto só hoje, clique e garanta o seu"
   corpo: "A maior loja de eletrônicos do país está queimando estoque: smartphone de última geração por R$ 199! Só até meia-noite, corre no link!"
-  imagem: {fileID: 0}
+  imagem: {fileID: 21300000, guid: aac24d0cad6789e633fd64e1593c84b2, type: 3}
   nomeCanal: "Instagram @fofocasdacidade (publicidade)"
   data: 13/09/2026
   autor: {fileID: 11400000, guid: 7555cb5a02e1e94ff23cfd07a172c168, type: 2}

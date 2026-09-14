@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Noticia
   titulo: "Alerta de chuva forte para o fim de semana em Vale Verde"
   corpo: "O INMET emitiu alerta laranja para chuvas intensas entre sábado e domingo, com risco de alagamentos. A Defesa Civil recomenda evitar áreas próximas ao rio."
-  imagem: {fileID: 0}
+  imagem: {fileID: 21300000, guid: 415ec649204d5ed1dc80c621e5f87e1e, type: 3}
   nomeCanal: "Site oficial do INMET"
   data: 11/09/2026
   autor: {fileID: 11400000, guid: fa955d8bc7340fec57b872c9cad9d20e, type: 2}

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Noticia
   titulo: "Foto mostra o Rio Verde completamente seco pela primeira vez na história"
   corpo: "Imagem impressionante mostra o leito do Rio Verde totalmente seco. Estamos vivendo a pior seca de todos os tempos!"
-  imagem: {fileID: 0}
+  imagem: {fileID: 21300000, guid: aac24d0cad6789e633fd64e1593c84b2, type: 3}
   nomeCanal: "Twitter/X (post viralizado)"
   data: 11/09/2026
   autor: {fileID: 11400000, guid: a0b2880ac34f3cfb5af9fcb8a2288493, type: 2}

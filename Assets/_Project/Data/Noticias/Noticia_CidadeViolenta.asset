@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Noticia
   titulo: "Vale Verde é a cidade mais violenta do estado, aponta pesquisa"
   corpo: "Pesquisa revela que Vale Verde lidera o ranking de violência do estado. Moradores relatam medo de sair de casa à noite."
-  imagem: {fileID: 0}
+  imagem: {fileID: 21300000, guid: aac24d0cad6789e633fd64e1593c84b2, type: 3}
   nomeCanal: "Instagram @fofocasdacidade"
   data: 11/09/2026
   autor: {fileID: 11400000, guid: 7555cb5a02e1e94ff23cfd07a172c168, type: 2}

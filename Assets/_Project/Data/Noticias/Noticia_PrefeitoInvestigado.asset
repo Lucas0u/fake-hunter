@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Noticia
   titulo: "Jornal da Cidade: prefeito é investigado por desvio de R$ 30 milhões"
   corpo: "Reportagem exclusiva revela que o prefeito de Vale Verde é alvo de investigação da Polícia Federal por desvio de verbas da saúde. Leia a matéria completa no link."
-  imagem: {fileID: 0}
+  imagem: {fileID: 21300000, guid: 37868adb6a457ed5dc96c469f6da8b13, type: 3}
   nomeCanal: "Site: jornaldacidade-noticias.net"
   data: 12/09/2026
   autor: {fileID: 11400000, guid: b84fb2e95916608b689a7c67405e66be, type: 2}

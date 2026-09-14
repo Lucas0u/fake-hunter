@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Noticia
   titulo: "Chá de boldo cura diabetes em 7 dias, garante especialista"
   corpo: "Compartilhe com quem você ama! Os médicos escondem, mas tomar chá de boldo em jejum por uma semana elimina a diabetes sem precisar de remédio."
-  imagem: {fileID: 0}
+  imagem: {fileID: 21300000, guid: 98e63575bba294ec2ba3536d28fff82c, type: 3}
   nomeCanal: "WhatsApp (mensagem encaminhada)"
   data: 10/09/2026
   autor: {fileID: 11400000, guid: 37dd0f0233fdb45e728f82a71043188f, type: 2}

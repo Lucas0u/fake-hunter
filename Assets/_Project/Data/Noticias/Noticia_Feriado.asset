@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Noticia
   titulo: "Feriadão amanhã?"
   corpo: "Corre um aviso dizendo que a prefeitura decretou feriado para amanhã, valendo para toda a cidade. Ninguém precisa ir trabalhar!"
-  imagem: {fileID: 0}
+  imagem: {fileID: 21300000, guid: 98e63575bba294ec2ba3536d28fff82c, type: 3}
   nomeCanal: "WhatsApp (mensagem encaminhada)"
   data: 08/09/2026
   autor: {fileID: 11400000, guid: 237331027d0614d499b88c7e6ab29040, type: 2}

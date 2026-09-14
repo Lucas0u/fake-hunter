@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Noticia
   titulo: "Prefeitura vai distribuir kits escolares para alunos da rede municipal"
   corpo: "A Secretaria de Educação anunciou que os 12 mil alunos da rede municipal receberão kit com mochila, cadernos e material de escrita a partir da próxima semana, nas próprias escolas."
-  imagem: {fileID: 0}
+  imagem: {fileID: 21300000, guid: 415ec649204d5ed1dc80c621e5f87e1e, type: 3}
   nomeCanal: "Portal Oficial da Prefeitura (valeverde.gov.br)"
   data: 10/09/2026
   autor: {fileID: 11400000, guid: 7efb4222399a7f9e6faed237c26071f7, type: 2}

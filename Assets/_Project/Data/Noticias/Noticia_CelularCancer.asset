@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Noticia
   titulo: "Estudo comprova: usar celular causa câncer no cérebro"
   corpo: "Cientistas confirmaram que a radiação do celular causa tumores. Pesquisa feita com ratos mostrou aumento de casos de câncer após exposição prolongada."
-  imagem: {fileID: 0}
+  imagem: {fileID: 21300000, guid: aac24d0cad6789e633fd64e1593c84b2, type: 3}
   nomeCanal: "Facebook (página Saúde Sem Segredos)"
   data: 09/09/2026
   autor: {fileID: 11400000, guid: 37dd0f0233fdb45e728f82a71043188f, type: 2}

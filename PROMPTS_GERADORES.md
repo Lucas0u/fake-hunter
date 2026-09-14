@@ -413,3 +413,16 @@ Assets/_Project/Art/
 
 No Unity, importe tudo como **Texture Type: Sprite (2D and UI)**. Depois ligue as imagens
 conforme o `COMO_CONFIGURAR.md`.
+
+---
+
+## Substituindo as imagens provisórias dos canais
+
+Já existem 5 imagens provisórias (cores sólidas) em `Assets/_Project/Art/Sprites/Noticias`,
+ligadas às 18 notícias. Para trocar pelas imagens geradas:
+
+1. Gere a imagem no Microsoft Designer com o prompt da seção A3.
+2. No Photopea, redimensione para **800x450** e exporte como PNG.
+3. Salve **por cima** do arquivo de mesmo nome (`canal_whatsapp.png`, `canal_portal_oficial.png`,
+   `canal_jornal.png`, `canal_blog.png`, `canal_rede_social.png`). Não apague o `.meta`.
+4. Volte para o Unity: ele reimporta e todas as notícias daquele canal já mostram a nova imagem.

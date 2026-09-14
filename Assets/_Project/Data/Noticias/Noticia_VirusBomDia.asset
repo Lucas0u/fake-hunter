@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Noticia
   titulo: "Novo vírus rouba dados do celular por mensagens de Bom Dia"
   corpo: "Hackers estão usando as imagens de bom dia para instalar um vírus que rouba senhas bancárias. Apague todas as imagens de bom dia que você recebeu e avise todo mundo!"
-  imagem: {fileID: 0}
+  imagem: {fileID: 21300000, guid: 49bbb6d363e2bd373cccf469abe62438, type: 3}
   nomeCanal: "Blog Verdade Oculta"
   data: 08/09/2026
   autor: {fileID: 11400000, guid: 01fe8150aa5721ff66a23d1fada69b6d, type: 2}

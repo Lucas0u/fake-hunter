@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Noticia
   titulo: "Ônibus vai ser de graça todo domingo em Vale Verde"
   corpo: "Passando pra avisar: a prefeitura liberou tarifa zero em TODOS os ônibus aos domingos a partir de agora! Aproveitem e repassem!"
-  imagem: {fileID: 0}
+  imagem: {fileID: 21300000, guid: 98e63575bba294ec2ba3536d28fff82c, type: 3}
   nomeCanal: "WhatsApp (grupo da família)"
   data: 13/09/2026
   autor: {fileID: 11400000, guid: 52bc9af38a960da64946f054edd2a39b, type: 2}

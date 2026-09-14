@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Noticia
   titulo: "Escola municipal do bairro Jardim ganha nova quadra coberta"
   corpo: "A Escola Municipal Maria da Penha inaugurou nesta semana uma quadra poliesportiva coberta, construída com recursos do orçamento municipal. A obra durou oito meses."
-  imagem: {fileID: 0}
+  imagem: {fileID: 21300000, guid: 37868adb6a457ed5dc96c469f6da8b13, type: 3}
   nomeCanal: "Jornal da Cidade (site)"
   data: 12/09/2026
   autor: {fileID: 11400000, guid: b84fb2e95916608b689a7c67405e66be, type: 2}
