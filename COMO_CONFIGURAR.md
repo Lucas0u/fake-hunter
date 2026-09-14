@@ -73,22 +73,16 @@ Para criar conteúdo novo: botão direito na pasta > `Create > FakeHunter > Noti
 5. Notícias: selecione cada `Noticia_*.asset` e arraste `not_*.png` no campo **Imagem**.
 6. Fontes: selecione cada `Fonte_*.asset` e arraste `avatar_*.png` no campo **Avatar**.
 
-## 4. Cena de Menu (opcional)
+## 4. Cena de Menu
 
-1. `File > New Scene` (2D), salve como `Assets/_Project/Scenes/Menu.unity`.
-2. Crie um `Canvas` com `Background` (sprite `bg_menu.png`), o logo (`logo_fakehunter.png`) e três botões: **Jogar**, **Como jogar**, **Sair**.
-3. Crie um objeto vazio `MenuPrincipal` e adicione o script `MenuPrincipal`.
-4. Ligue os botões: `MenuPrincipal.Jogar`, `MenuPrincipal.AbrirComoJogar`, `MenuPrincipal.Sair`.
-5. Crie um painel `PainelComoJogar` (desativado) com o texto de instruções e um botão **Fechar** → `MenuPrincipal.FecharComoJogar`.
-6. `File > Build Profiles`: adicione as cenas `Menu` (índice 0) e `Gameplay` (índice 1).
-   Sem a cena `Menu`, o botão "Menu" simplesmente reinicia a fase.
+Já existe em `Assets/_Project/Scenes/Menu.unity` (logo, botões Jogar / Como jogar / Sair e painel "Como jogar"),
+e as Build Settings já têm `Menu` (0) e `Gameplay` (1). Para testar o fluxo completo, abra a cena `Menu` e dê Play.
 
-Texto sugerido para "Como jogar":
+## 4.1 Passagem de fase
 
-> Você é o novo checador de fatos da comunidade. A cada notícia, use até 2 investigações
-> (Verificar Fonte, Consultar Referência ou Pesquisar) e decida: **Compartilhar** ou
-> **Não Propagar**. Só compartilhe o que for totalmente verdadeiro. Cada erro derruba a
-> confiança da comunidade. Se chegar a zero, você é demitido!
+Ao terminar uma fase, o painel de resumo mostra **Jogar de novo**, **Próxima fase** (só quando a fase tem
+`proximaFase` configurada) e **Menu**. A fase escolhida é guardada em `ProgressoJogo.faseSelecionada` e
+lida pelo `PainelNoticia` ao recarregar a cena.
 
 ## 5. Regras de pontuação (ajustáveis no GameManager)
 

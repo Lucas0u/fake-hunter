@@ -48,6 +48,9 @@ public class PainelNoticia : MonoBehaviour
 
     void Start()
     {
+        if (ProgressoJogo.faseSelecionada != null)
+            faseAtual = ProgressoJogo.faseSelecionada;
+
         MontarListaDeNoticias();
         indiceAtual = 0;
 

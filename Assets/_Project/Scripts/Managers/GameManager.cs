@@ -27,6 +27,7 @@ public class GameManager : MonoBehaviour
     [Header("Referências de UI - Fim de fase (opcional)")]
     public GameObject painelFimDeFase;
     public TMP_Text txtResumoFase;
+    public GameObject btnProximaFase;    // opcional: some quando não há próxima fase
 
     [Header("Referências de UI - Game Over (opcional)")]
     public GameObject painelGameOver;
@@ -42,6 +43,7 @@ public class GameManager : MonoBehaviour
     private int acertos;
     private int erros;
     private bool jogoAcabou;
+    private FaseDeNoticias faseConcluida;
 
     public bool JogoAcabou => jogoAcabou;
     public float Confianca => confiancaAtual;
@@ -117,6 +119,7 @@ public class GameManager : MonoBehaviour
     public void FinalizarFase(FaseDeNoticias fase)
     {
         if (jogoAcabou) return;
+        faseConcluida = fase;
 
         string nome = fase != null ? fase.nomeFase : "Fase";
         string resumo =
@@ -131,6 +134,8 @@ public class GameManager : MonoBehaviour
         {
             painelFimDeFase.SetActive(true);
             if (txtResumoFase != null) txtResumoFase.text = resumo;
+            if (btnProximaFase != null)
+                btnProximaFase.SetActive(fase != null && fase.proximaFase != null);
         }
         else
         {
@@ -161,6 +166,13 @@ public class GameManager : MonoBehaviour
 
     // ---------- Botões ----------
 
+    public void ProximaFase()
+    {
+        if (faseConcluida == null || faseConcluida.proximaFase == null) { ReiniciarFase(); return; }
+        ProgressoJogo.faseSelecionada = faseConcluida.proximaFase;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
     public void ReiniciarFase()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
@@ -168,6 +180,7 @@ public class GameManager : MonoBehaviour
 
     public void VoltarAoMenu()
     {
+        ProgressoJogo.faseSelecionada = null;
         if (Application.CanStreamedLevelBeLoaded(cenaMenu))
             SceneManager.LoadScene(cenaMenu);
         else
