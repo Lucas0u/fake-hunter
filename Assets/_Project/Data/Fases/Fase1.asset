@@ -12,5 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70cf726a8d8b5624f95e12f44222888a, type: 3}
   m_Name: Fase1
   m_EditorClassIdentifier: Assembly-CSharp::FaseDeNoticias
+  nomeFase: "Fase 1 – Primeiros passos"
+  descricao: "Notícias fáceis: aprenda a usar as ferramentas de investigação."
   noticias:
   - {fileID: 11400000, guid: 5c086a1cd7d5b1848aa8e2903192e210, type: 2}
+  - {fileID: 11400000, guid: ccbb5ee8ab4956a93aecaa6b203df1e8, type: 2}
+  - {fileID: 11400000, guid: f17476760370b45fceb3de94130a0b9f, type: 2}
+  - {fileID: 11400000, guid: c8d7c7f7fcd1d91c0cefef014b60e361, type: 2}
+  - {fileID: 11400000, guid: 599e56d8a8eb7f6bd29e68011a941b99, type: 2}
+  - {fileID: 11400000, guid: 8695ccf95f62fc6b28fc0c1d8a29d8ec, type: 2}
+  embaralhar: 0
+  proximaFase: {fileID: 11400000, guid: f4a12584396bcaf74792755ca40d8eaf, type: 2}

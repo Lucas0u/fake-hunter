@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3240ef2edb1953d459ec51e03bcf5e44, type: 3}
+  m_Name: Noticia_DescontoCelular
+  m_EditorClassIdentifier: Assembly-CSharp::Noticia
+  titulo: "Loja liquida celulares com 90% de desconto só hoje, clique e garanta o seu"
+  corpo: "A maior loja de eletrônicos do país está queimando estoque: smartphone de última geração por R$ 199! Só até meia-noite, corre no link!"
+  imagem: {fileID: 0}
+  nomeCanal: "Instagram @fofocasdacidade (publicidade)"
+  data: 13/09/2026
+  autor: {fileID: 11400000, guid: 7555cb5a02e1e94ff23cfd07a172c168, type: 2}
+  textoVerificarFonte: "A página foi paga para divulgar. O link leva a um site com endereço estranho, cheio de erros de português, que pede o número do cartão logo na primeira tela."
+  textoPesquisar: "A loja verdadeira publicou um alerta dizendo que não tem promoção desse tipo e que o site é falso. Consumidores relatam ter perdido dinheiro."
+  veredito: 1
+  dificuldade: 2
+  explicacao: "Oferta boa demais para ser verdade, urgência (só até meia-noite) e site que pede o cartão de imediato: golpe clássico. Páginas de fofoca costumam aceitar anúncios sem checar. Compartilhar poderia fazer sua comunidade cair no golpe."

@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d94fe069a2170f445b4696e7d9293021, type: 3}
-  m_Name: Fonte_CarlosNoticias
+  m_Name: Fonte_MinisterioSaude
   m_EditorClassIdentifier: Assembly-CSharp::Fonte
-  nomeExibido: "Carlos Notícias"
+  nomeExibido: "Ministério da Saúde"
   avatar: {fileID: 0}
-  status: 1
-  historico: "Perfil sem identificação clara. Já publicou 3 informações desmentidas nos últimos meses."
+  status: 0
+  historico: "Órgão oficial do governo federal. Publica alertas sanitários e campanhas de vacinação."

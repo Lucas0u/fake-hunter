@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3240ef2edb1953d459ec51e03bcf5e44, type: 3}
+  m_Name: Noticia_ChaBoldo
+  m_EditorClassIdentifier: Assembly-CSharp::Noticia
+  titulo: "Chá de boldo cura diabetes em 7 dias, garante especialista"
+  corpo: "Compartilhe com quem você ama! Os médicos escondem, mas tomar chá de boldo em jejum por uma semana elimina a diabetes sem precisar de remédio."
+  imagem: {fileID: 0}
+  nomeCanal: "WhatsApp (mensagem encaminhada)"
+  data: 10/09/2026
+  autor: {fileID: 11400000, guid: 37dd0f0233fdb45e728f82a71043188f, type: 2}
+  textoVerificarFonte: "O tal especialista não tem nome completo nem registro no CRM. A mensagem aparece marcada como Encaminhada muitas vezes."
+  textoPesquisar: "Não existe nenhum estudo científico que comprove a cura da diabetes com chá. Sociedades médicas alertam que abandonar o tratamento pode ser fatal."
+  veredito: 1
+  dificuldade: 0
+  explicacao: "Promessa de cura milagrosa, apelo emocional (compartilhe com quem você ama) e a ideia de que os médicos escondem a verdade são sinais clássicos de fake news na área da saúde. Espalhar esse tipo de conteúdo pode colocar vidas em risco."

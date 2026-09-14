@@ -12,15 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3240ef2edb1953d459ec51e03bcf5e44, type: 3}
   m_Name: Noticia_Feriado
   m_EditorClassIdentifier: Assembly-CSharp::Noticia
-  titulo: "Feriad\xE3o?"
-  corpo: "Corre um aviso dizendo que a prefeitura decretou feriado para amanh\xE3,
-    valendo para toda a cidade."
-  nomeCanal: Whatsapp
+  titulo: "Feriadão amanhã?"
+  corpo: "Corre um aviso dizendo que a prefeitura decretou feriado para amanhã, valendo para toda a cidade. Ninguém precisa ir trabalhar!"
+  imagem: {fileID: 0}
+  nomeCanal: "WhatsApp (mensagem encaminhada)"
   data: 08/09/2026
   autor: {fileID: 11400000, guid: 237331027d0614d499b88c7e6ab29040, type: 2}
-  textoVerificarFonte: "Fonte n\xE3o identificada. Nenhum \xF3rg\xE3o oficial confirmou
-    a informa\xE7\xE3o."
-  textoPesquisar: "Uma busca r\xE1pida mostra que o site oficial da prefeitura n\xE3o
-    tem nenhum comunicado sobre feriado."
+  textoVerificarFonte: "Fonte não identificada. Nenhum órgão oficial confirmou a informação e a mensagem não tem link nem assinatura."
+  textoPesquisar: "Uma busca rápida mostra que o site oficial da prefeitura não tem nenhum comunicado sobre feriado, e o Diário Oficial não publicou decreto."
   veredito: 1
   dificuldade: 0
+  explicacao: "A prefeitura não publicou nenhum decreto. Feriados são oficializados por lei ou decreto e aparecem no Diário Oficial e no site oficial. Mensagens sem link e sem autor identificado são um sinal clássico de boato."

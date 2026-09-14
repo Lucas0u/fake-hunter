@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3240ef2edb1953d459ec51e03bcf5e44, type: 3}
+  m_Name: Noticia_VacinaGripe
+  m_EditorClassIdentifier: Assembly-CSharp::Noticia
+  titulo: "Campanha de vacinação contra a gripe começa na segunda-feira"
+  corpo: "A Prefeitura de Vale Verde informa que todas as unidades básicas de saúde vão aplicar a vacina contra a gripe a partir de segunda, das 8h às 17h, para toda a população."
+  imagem: {fileID: 0}
+  nomeCanal: "Portal Oficial da Prefeitura (valeverde.gov.br)"
+  data: 14/09/2026
+  autor: {fileID: 11400000, guid: 7efb4222399a7f9e6faed237c26071f7, type: 2}
+  textoVerificarFonte: "O endereço termina em .gov.br e a publicação está assinada pela Secretaria Municipal de Saúde."
+  textoPesquisar: "O Ministério da Saúde e o Jornal da Cidade também divulgaram a campanha, com as mesmas datas e horários."
+  veredito: 0
+  dificuldade: 0
+  explicacao: "Fonte oficial, informação confirmada por outros veículos e dados concretos (datas, horários e locais). Todos os sinais de uma notícia verdadeira. Compartilhar ajuda a comunidade."

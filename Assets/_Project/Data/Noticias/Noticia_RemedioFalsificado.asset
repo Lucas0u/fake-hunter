@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3240ef2edb1953d459ec51e03bcf5e44, type: 3}
+  m_Name: Noticia_RemedioFalsificado
+  m_EditorClassIdentifier: Assembly-CSharp::Noticia
+  titulo: "Ministério da Saúde alerta para lote falsificado de remédio para pressão"
+  corpo: "O Ministério da Saúde e a Anvisa alertam que o lote 4521B do medicamento para hipertensão Pressalix é falsificado e deve ser devolvido à farmácia onde foi comprado."
+  imagem: {fileID: 0}
+  nomeCanal: "Facebook (compartilhado por Carlos Notícias)"
+  data: 13/09/2026
+  autor: {fileID: 11400000, guid: 237331027d0614d499b88c7e6ab29040, type: 2}
+  textoVerificarFonte: "Carlos Notícias já espalhou boatos antes, mas dessa vez o post traz o link para o alerta publicado no site oficial da Anvisa."
+  textoPesquisar: "O alerta consta no site da Anvisa e do Ministério da Saúde, com o mesmo número de lote. Jornais nacionais também publicaram a informação."
+  veredito: 0
+  dificuldade: 2
+  explicacao: "Pegadinha! Uma fonte não confiável pode, às vezes, compartilhar algo verdadeiro. O que importa é o conteúdo, e ele foi confirmado nas fontes oficiais. Avalie sempre a informação, não apenas quem a enviou. Bloquear este alerta poderia prejudicar quem usa o remédio."

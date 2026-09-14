@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3240ef2edb1953d459ec51e03bcf5e44, type: 3}
+  m_Name: Noticia_VagasProgramacao
+  m_EditorClassIdentifier: Assembly-CSharp::Noticia
+  titulo: "UFVV abre 500 vagas gratuitas em curso de programação para iniciantes"
+  corpo: "A Universidade Federal de Vale Verde abriu inscrições para um curso gratuito de introdução à programação. As vagas são para maiores de 16 anos e as inscrições vão até o dia 30."
+  imagem: {fileID: 0}
+  nomeCanal: "Instagram oficial da UFVV"
+  data: 12/09/2026
+  autor: {fileID: 11400000, guid: ffd13ba767b63065d6438441d7593048, type: 2}
+  textoVerificarFonte: "O perfil tem selo de verificação e o post traz link para o edital no site oficial da universidade."
+  textoPesquisar: "O edital está no site da UFVV, com número de vagas, requisitos e datas. O Jornal da Cidade também noticiou a abertura das inscrições."
+  veredito: 0
+  dificuldade: 1
+  explicacao: "Perfil verificado, link para documento oficial e informação confirmada em mais de uma fonte. Uma oportunidade real que vale a pena compartilhar."

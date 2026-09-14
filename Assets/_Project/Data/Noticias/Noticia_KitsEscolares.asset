@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3240ef2edb1953d459ec51e03bcf5e44, type: 3}
+  m_Name: Noticia_KitsEscolares
+  m_EditorClassIdentifier: Assembly-CSharp::Noticia
+  titulo: "Prefeitura vai distribuir kits escolares para alunos da rede municipal"
+  corpo: "A Secretaria de Educação anunciou que os 12 mil alunos da rede municipal receberão kit com mochila, cadernos e material de escrita a partir da próxima semana, nas próprias escolas."
+  imagem: {fileID: 0}
+  nomeCanal: "Portal Oficial da Prefeitura (valeverde.gov.br)"
+  data: 10/09/2026
+  autor: {fileID: 11400000, guid: 7efb4222399a7f9e6faed237c26071f7, type: 2}
+  textoVerificarFonte: "Publicação no site oficial, assinada pela Secretaria de Educação, com o número do processo de compra."
+  textoPesquisar: "O Jornal da Cidade entrevistou a secretária de Educação, que confirmou o cronograma de entrega por escola."
+  veredito: 0
+  dificuldade: 1
+  explicacao: "Informação oficial, com detalhes verificáveis e confirmada por um veículo independente. O fato de a notícia ser boa não a torna suspeita, desde que passe nas verificações."
