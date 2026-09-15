@@ -39,6 +39,10 @@ public class PainelNoticia : MonoBehaviour
     public TMP_Text txtExplicacaoTitulo;
     public TMP_Text txtExplicacaoVeredito;
     public TMP_Text txtExplicacaoCorpo;
+    public Image imgExplicacaoVeredito;   // opcional: ícone que muda conforme o veredito
+    public Sprite iconeVerdadeiro;        // ico_verdadeiro
+    public Sprite iconeFalso;             // ico_falso
+    public Sprite iconeParcial;           // ico_parcial
 
     private List<Noticia> noticias = new List<Noticia>();
     private int indiceAtual = 0;
@@ -229,6 +233,18 @@ public class PainelNoticia : MonoBehaviour
 
         if (txtExplicacaoCorpo != null)
             txtExplicacaoCorpo.text = noticiaAtual.explicacao;
+
+        if (imgExplicacaoVeredito != null)
+        {
+            Sprite icone = noticiaAtual.veredito switch
+            {
+                Noticia.Veredito.Verdadeira => iconeVerdadeiro,
+                Noticia.Veredito.Falsa => iconeFalso,
+                _ => iconeParcial,
+            };
+            imgExplicacaoVeredito.sprite = icone;
+            imgExplicacaoVeredito.enabled = icone != null;
+        }
     }
 
     // Ligar ao botão "Próxima" do painel de explicação
