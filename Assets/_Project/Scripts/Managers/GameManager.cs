@@ -33,6 +33,14 @@ public class GameManager : MonoBehaviour
     public GameObject painelGameOver;
     public TMP_Text txtResumoGameOver;
 
+    [Header("Áudio")]
+    public AudioSource fonteSom;          // AudioSource com Play On Awake desmarcado
+    public AudioClip somAcerto;
+    public AudioClip somErro;
+    public AudioClip somFimDeFase;
+    public AudioClip somGameOver;
+    [Range(0f, 1f)] public float volumeSom = 1f;
+
     [Header("Cenas")]
     public string cenaMenu = "Menu";
 
@@ -91,6 +99,7 @@ public class GameManager : MonoBehaviour
 
             confiancaAtual = Mathf.Min(100f, confiancaAtual + ganhoPorAcerto);
             MostrarFeedback("Decisão correta! A confiança da comunidade aumentou.", true);
+            TocarSom(somAcerto);
         }
         else
         {
@@ -103,6 +112,7 @@ public class GameManager : MonoBehaviour
                 ? "Você espalhou uma informação que não era totalmente verdadeira."
                 : "Você bloqueou uma informação verdadeira e importante.";
             MostrarFeedback("Decisão incorreta. " + motivo, false);
+            TocarSom(somErro);
         }
 
         AtualizarUI();
@@ -130,6 +140,8 @@ public class GameManager : MonoBehaviour
             $"Confiança final: {confiancaAtual:0}%\n" +
             $"Pontuação: {pontos}";
 
+        TocarSom(somFimDeFase);
+
         if (painelFimDeFase != null)
         {
             painelFimDeFase.SetActive(true);
@@ -152,6 +164,8 @@ public class GameManager : MonoBehaviour
             "A comunidade perdeu a confiança no seu trabalho.\n\n" +
             $"Acertos: {acertos}   Erros: {erros}\n" +
             $"Pontuação: {pontos}";
+
+        TocarSom(somGameOver);
 
         if (painelGameOver != null)
         {
@@ -209,5 +223,13 @@ public class GameManager : MonoBehaviour
         if (txtFeedback == null) return;
         txtFeedback.text = mensagem;
         txtFeedback.color = acertou ? new Color(0.25f, 0.75f, 0.35f) : new Color(0.85f, 0.25f, 0.25f);
+    }
+
+    // ---------- Áudio ----------
+
+    private void TocarSom(AudioClip clip)
+    {
+        if (fonteSom == null || clip == null) return;
+        fonteSom.PlayOneShot(clip, volumeSom);
     }
 }
