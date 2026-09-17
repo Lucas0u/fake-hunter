@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3240ef2edb1953d459ec51e03bcf5e44, type: 3}
+  m_Name: Noticia_CelularCancer
+  m_EditorClassIdentifier: Assembly-CSharp::Noticia
+  titulo: "Estudo comprova: usar celular causa câncer no cérebro"
+  corpo: "Cientistas confirmaram que a radiação do celular causa tumores. Pesquisa feita com ratos mostrou aumento de casos de câncer após exposição prolongada."
+  imagem: {fileID: 21300000, guid: aac24d0cad6789e633fd64e1593c84b2, type: 3}
+  nomeCanal: "Facebook (página Saúde Sem Segredos)"
+  data: 09/09/2026
+  autor: {fileID: 11400000, guid: 37dd0f0233fdb45e728f82a71043188f, type: 2}
+  textoVerificarFonte: "A página pertence ao mesmo dono do perfil Dr. Saúde Natural, que vende adesivos anti-radiação para celular."
+  textoPesquisar: "O estudo existe, mas foi feito em ratos expostos a níveis de radiação muito maiores que os de um celular. Os próprios autores dizem que não dá para concluir o mesmo em humanos. A OMS classifica a evidência como limitada."
+  veredito: 2
+  dificuldade: 1
+  explicacao: "A pesquisa é real, mas a manchete distorce a conclusão. Um estudo em animais não comprova nada em humanos, e a palavra comprova foi inventada pela página. Repare também que quem espalhou a notícia lucra com o medo, vendendo produtos."

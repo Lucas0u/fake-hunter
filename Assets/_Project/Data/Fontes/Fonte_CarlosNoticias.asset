@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d94fe069a2170f445b4696e7d9293021, type: 3}
   m_Name: Fonte_CarlosNoticias
   m_EditorClassIdentifier: Assembly-CSharp::Fonte
-  nomeExibido: Carlos Noticias
+  nomeExibido: "Carlos Notícias"
+  avatar: {fileID: 0}
   status: 1
-  historico: "Perfil sem identifica\xE7\xE3o clara. J\xE1 publicou 3 informa\xE7\xF5es
-    desmentidas nos \xFAltimos meses."
+  historico: "Perfil sem identificação clara. Já publicou 3 informações desmentidas nos últimos meses."

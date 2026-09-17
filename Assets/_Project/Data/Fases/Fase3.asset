@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70cf726a8d8b5624f95e12f44222888a, type: 3}
+  m_Name: Fase3
+  m_EditorClassIdentifier: Assembly-CSharp::FaseDeNoticias
+  nomeFase: "Fase 3 – Caçador experiente"
+  descricao: "Sites clonados, fotos antigas e fontes enganosas. Confie na investigação, não na aparência."
+  noticias:
+  - {fileID: 11400000, guid: 6d25443ec3e4cc3e04e7276f3f4c0eec, type: 2}
+  - {fileID: 11400000, guid: 08c9bbf2b71df89ac84018896d91647b, type: 2}
+  - {fileID: 11400000, guid: 4bf8ca35bb9088ced1db9119f7dea688, type: 2}
+  - {fileID: 11400000, guid: 34622b1d4e31aeacbbf332740457ae40, type: 2}
+  - {fileID: 11400000, guid: 3e95e42d1b16f69c6991b7f6bdb7773e, type: 2}
+  - {fileID: 11400000, guid: 07b1ceea8e1e56de7431f3188e920a7b, type: 2}
+  embaralhar: 0
+  proximaFase: {fileID: 0}

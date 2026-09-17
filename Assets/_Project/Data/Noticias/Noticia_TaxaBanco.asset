@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3240ef2edb1953d459ec51e03bcf5e44, type: 3}
+  m_Name: Noticia_TaxaBanco
+  m_EditorClassIdentifier: Assembly-CSharp::Noticia
+  titulo: "URGENTE: banco vai bloquear sua conta se você não atualizar o aplicativo hoje"
+  corpo: "Atenção clientes! Quem não clicar no link e atualizar os dados até as 23h59 de hoje terá a conta bloqueada e pagará taxa de reativação de R$ 150."
+  imagem: {fileID: 21300000, guid: 98e63575bba294ec2ba3536d28fff82c, type: 3}
+  nomeCanal: "WhatsApp (mensagem encaminhada)"
+  data: 09/09/2026
+  autor: {fileID: 11400000, guid: a0b2880ac34f3cfb5af9fcb8a2288493, type: 2}
+  textoVerificarFonte: "O link da mensagem leva para um site que não é o do banco. O Zé diz que só repassou o que recebeu de outro grupo."
+  textoPesquisar: "O banco publicou aviso oficial dizendo que nunca pede atualização de dados por link em mensagens. Esse é um golpe conhecido, chamado phishing."
+  veredito: 1
+  dificuldade: 0
+  explicacao: "Urgência exagerada, ameaça de bloqueio e pedido para clicar em um link são a fórmula clássica de golpes. Bancos não pedem dados por mensagem. Não propagar protege sua comunidade de perder dinheiro."

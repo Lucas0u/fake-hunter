@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70cf726a8d8b5624f95e12f44222888a, type: 3}
+  m_Name: Fase2
+  m_EditorClassIdentifier: Assembly-CSharp::FaseDeNoticias
+  nomeFase: "Fase 2 – Meia verdade"
+  descricao: "Nem tudo é totalmente falso ou totalmente verdadeiro. Preste atenção nos detalhes."
+  noticias:
+  - {fileID: 11400000, guid: ddd0c03de6af532d47100a0e84b8db6d, type: 2}
+  - {fileID: 11400000, guid: a78b23f01b03817f988a4b5414dfa4b7, type: 2}
+  - {fileID: 11400000, guid: 0ec3db01dfd98bb221b1ca8b9656806d, type: 2}
+  - {fileID: 11400000, guid: a09e180fda2c1419a50db0941d3c073c, type: 2}
+  - {fileID: 11400000, guid: ccdcfa31158403a529198944d41d7e5e, type: 2}
+  - {fileID: 11400000, guid: a916755bc266d5544832670f4002ab1a, type: 2}
+  embaralhar: 0
+  proximaFase: {fileID: 11400000, guid: d2c04b5eec0ad26518ac19349abb382d, type: 2}

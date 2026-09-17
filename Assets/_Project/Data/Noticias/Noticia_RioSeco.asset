@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3240ef2edb1953d459ec51e03bcf5e44, type: 3}
+  m_Name: Noticia_RioSeco
+  m_EditorClassIdentifier: Assembly-CSharp::Noticia
+  titulo: "Foto mostra o Rio Verde completamente seco pela primeira vez na história"
+  corpo: "Imagem impressionante mostra o leito do Rio Verde totalmente seco. Estamos vivendo a pior seca de todos os tempos!"
+  imagem: {fileID: 21300000, guid: aac24d0cad6789e633fd64e1593c84b2, type: 3}
+  nomeCanal: "Twitter/X (post viralizado)"
+  data: 11/09/2026
+  autor: {fileID: 11400000, guid: a0b2880ac34f3cfb5af9fcb8a2288493, type: 2}
+  textoVerificarFonte: "O Zé encontrou a foto em outro grupo. A imagem não tem data nem crédito de fotógrafo."
+  textoPesquisar: "A busca reversa mostra que a foto é de 2014 e de outra cidade. O Rio Verde está com nível baixo por causa da estiagem, segundo a Defesa Civil, mas não está seco."
+  veredito: 2
+  dificuldade: 2
+  explicacao: "A seca é real, mas a foto é antiga e de outro lugar. Fotos fora de contexto são uma das formas mais comuns de desinformação. A busca reversa de imagens é uma ferramenta essencial para descobrir de onde uma foto veio."

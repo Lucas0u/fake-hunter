@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3240ef2edb1953d459ec51e03bcf5e44, type: 3}
+  m_Name: Noticia_TaxaPix
+  m_EditorClassIdentifier: Assembly-CSharp::Noticia
+  titulo: "Governo vai cobrar taxa de 20% em todas as transferências por Pix a partir de outubro"
+  corpo: "Documento vazado mostra que o governo vai taxar o Pix. Cada transferência acima de R$ 100 pagará 20% de imposto. Compartilhe antes que apaguem!"
+  imagem: {fileID: 21300000, guid: 49bbb6d363e2bd373cccf469abe62438, type: 3}
+  nomeCanal: "Blog Verdade Oculta"
+  data: 10/09/2026
+  autor: {fileID: 11400000, guid: 01fe8150aa5721ff66a23d1fada69b6d, type: 2}
+  textoVerificarFonte: "O blog não mostra o tal documento vazado. O texto não cita nenhuma lei, projeto ou órgão responsável."
+  textoPesquisar: "O Banco Central, responsável pelo Pix, publicou nota oficial negando qualquer cobrança. Não existe projeto de lei com esse conteúdo."
+  veredito: 1
+  dificuldade: 2
+  explicacao: "A frase compartilhe antes que apaguem é um truque para gerar urgência e impedir que você verifique. Documento vazado que ninguém mostra e ausência de leis citadas são fortes sinais de boato. O órgão responsável negou oficialmente."
