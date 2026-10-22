@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3240ef2edb1953d459ec51e03bcf5e44, type: 3}
+  m_Name: Noticia_VacinaSarampo
+  m_EditorClassIdentifier: Assembly-CSharp::Noticia
+  titulo: "Campanha de vacinação contra o sarampo começa na segunda-feira"
+  corpo: "O Ministério da Saúde informa que a campanha nacional de vacinação contra o sarampo começa na próxima segunda-feira. Crianças de 6 meses a 5 anos devem ir ao posto de saúde mais próximo com a caderneta de vacinação."
+  imagem: {fileID: 21300000, guid: 415ec649204d5ed1dc80c621e5f87e1e, type: 3}
+  nomeCanal: "Portal oficial: gov.br/saude"
+  data: 21/09/2026
+  autor: {fileID: 11400000, guid: c694c7bc4e341392c4b5dbf64f28dbb2, type: 2}
+  textoVerificarFonte: "O comunicado foi publicado no endereço oficial gov.br/saude e é assinado pela Secretaria de Vigilância em Saúde. O texto está bem escrito, sem nenhum erro de digitação."
+  textoPesquisar: "As secretarias de saúde do estado e da cidade divulgaram a mesma data, e os postos de Vale Verde já mostram cartazes da campanha."
+  veredito: 0
+  dificuldade: 2
+  explicacao: "A notícia é verdadeira: vem do canal oficial, foi confirmada por outros órgãos e o texto foi revisado com cuidado. Comunicados oficiais passam por revisão antes de serem publicados, por isso quase nunca têm erros de português."

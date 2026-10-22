@@ -30,6 +30,11 @@ public class PainelNoticia : MonoBehaviour
     public Button btnConsultarReferencia;      // opcional
     public Button btnPesquisar;                // opcional
 
+    [Header("Referências de UI - Dica (só aparece em fases com dica)")]
+    public Button btnDica;            // ícone de lâmpada
+    public GameObject balaoDica;      // balão que abre ao clicar no ícone
+    public TMP_Text txtDica;
+
     [Header("Referências de UI - Decisão")]
     public Button btnCompartilhar;    // opcional
     public Button btnNaoPropagar;     // opcional
@@ -54,11 +59,18 @@ public class PainelNoticia : MonoBehaviour
     {
         if (ProgressoJogo.faseSelecionada != null)
             faseAtual = ProgressoJogo.faseSelecionada;
+        else
+            ProgressoJogo.Resetar(); // começando pela fase do Inspector: partida nova
 
         MontarListaDeNoticias();
         indiceAtual = 0;
 
         if (painelExplicacao != null) painelExplicacao.SetActive(false);
+
+        bool temDica = faseAtual != null && !string.IsNullOrWhiteSpace(faseAtual.dica);
+        if (btnDica != null) btnDica.gameObject.SetActive(temDica);
+        if (txtDica != null && temDica) txtDica.text = faseAtual.dica;
+        FecharDica();
 
         MostrarNoticiaAtual();
     }
@@ -96,6 +108,7 @@ public class PainelNoticia : MonoBehaviour
         decisaoTomada = false;
 
         txtResultado.text = "";
+        FecharDica();
         txtTitulo.text = noticiaAtual.titulo;
         txtCorpo.text = noticiaAtual.corpo;
         txtAutor.text = "Autor: " + (noticiaAtual.autor != null ? noticiaAtual.autor.nomeExibido : "Desconhecido");
@@ -169,10 +182,19 @@ public class PainelNoticia : MonoBehaviour
         else
         {
             Fonte f = noticiaAtual.autor;
-            string cor = ColorUtility.ToHtmlStringRGB(f.StatusCor());
-            txtResultado.text =
-                $"<b>Consultar Referência</b>\n{f.nomeExibido}\n" +
-                $"Status: <color=#{cor}>{f.StatusTexto()}</color>\n{f.historico}";
+            if (faseAtual != null && faseAtual.ocultarStatusDaFonte)
+            {
+                // Sem a linha de status: o jogador precisa julgar a fonte pelo que ela escreve.
+                txtResultado.text =
+                    $"<b>Consultar Referência</b>\n{f.nomeExibido}\n{f.historico}";
+            }
+            else
+            {
+                string cor = ColorUtility.ToHtmlStringRGB(f.StatusCor());
+                txtResultado.text =
+                    $"<b>Consultar Referência</b>\n{f.nomeExibido}\n" +
+                    $"Status: <color=#{cor}>{f.StatusTexto()}</color>\n{f.historico}";
+            }
         }
 
         RegistrarInvestigacao(btnConsultarReferencia);
@@ -183,6 +205,20 @@ public class PainelNoticia : MonoBehaviour
         if (!PodeInvestigar()) return;
         txtResultado.text = "<b>Pesquisar</b>\n" + noticiaAtual.textoPesquisar;
         RegistrarInvestigacao(btnPesquisar);
+    }
+
+    // ---------- Dica ----------
+
+    // Ligar ao botão de lâmpada (e ao próprio balão, para fechar ao clicar nele)
+    public void OnDica()
+    {
+        if (balaoDica == null) return;
+        balaoDica.SetActive(!balaoDica.activeSelf);
+    }
+
+    private void FecharDica()
+    {
+        if (balaoDica != null) balaoDica.SetActive(false);
     }
 
     // ---------- Decisão ----------
@@ -201,6 +237,7 @@ public class PainelNoticia : MonoBehaviour
     {
         if (decisaoTomada || noticiaAtual == null) return;
         decisaoTomada = true;
+        FecharDica();
 
         bool acertou = GameManager.Instance.AvaliarDecisao(compartilhar, noticiaAtual);
         AtualizarBotoes();

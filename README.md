@@ -18,11 +18,25 @@ manchetes que distorcem estudos reais.
 - **Confiança da comunidade**: barra de 0 a 100%. Acerto +5%, erro -20%.
 - **Pontuação**: pontos por acerto multiplicados pela dificuldade, com bônus por sequência.
 - **Explicação**: após cada decisão, o jogo explica por que a notícia era o que era.
+- **Fase final sem status**: na Fase 4, "Consultar Referência" não mostra se a fonte é
+  confiável. As fontes falsas se entregam por erros de português no nome e nos textos.
+- **Tela de conclusão**: depois da Fase 4, o jogo mostra acertos, erros e pontos de cada fase,
+  o total e o aproveitamento, e dá um selo ao jogador:
+
+  | Aproveitamento | Selo |
+  |---|---|
+  | 100% | Especialista |
+  | 80% ou mais | Caçador voraz |
+  | 60% ou mais | Caçador vegetariano |
+  | abaixo de 60% | Caçado pelas fake news |
+
+  Mesmo terminando o jogo sem ser demitido, o jogador pode receber "Caçado pelas fake news".
+  Os limites podem ser ajustados no `GameManager` (`limiteVoraz`, `limiteVegetariano`).
 
 ## Conteúdo
 
-- 3 fases com 6 notícias cada (fácil, média, difícil).
-- 11 fontes com histórico e status (confiável, não confiável, desconhecida).
+- 4 fases com 6 notícias cada (fácil, média, difícil e a fase final sem status das fontes).
+- 15 fontes com histórico e status (confiável, não confiável, desconhecida).
 - Todo o conteúdo é feito em ScriptableObjects (`Assets/_Project/Data`), sem precisar
   mexer em código para criar novas notícias: `Create > FakeHunter > Noticia / Fonte / FaseDeNoticias`.
 
@@ -35,7 +49,8 @@ Assets/_Project/
 ├── Scenes/         Gameplay (e Menu, opcional)
 └── Scripts/
     ├── Data/       Noticia, Fonte, FaseDeNoticias
-    ├── Managers/   GameManager
+    ├── Editor/     scripts do menu FakeHunter (estilo e tela de conclusão)
+    ├── Managers/   GameManager, ProgressoJogo, Classificacao
     └── UI/         PainelNoticia, MenuPrincipal
 ```
 

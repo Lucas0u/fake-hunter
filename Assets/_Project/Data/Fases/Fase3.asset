@@ -22,4 +22,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3e95e42d1b16f69c6991b7f6bdb7773e, type: 2}
   - {fileID: 11400000, guid: 07b1ceea8e1e56de7431f3188e920a7b, type: 2}
   embaralhar: 0
-  proximaFase: {fileID: 0}
+  proximaFase: {fileID: 11400000, guid: 7ade2976ff9240de82b7e8a6d153cf3b, type: 2}

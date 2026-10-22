@@ -17,4 +17,12 @@ public class FaseDeNoticias : ScriptableObject
 
     [Header("Próxima fase (opcional)")]
     public FaseDeNoticias proximaFase;
+
+    [Header("Regras especiais")]
+    [Tooltip("Se marcado, 'Consultar Referência' não mostra se a fonte é confiável. O jogador precisa avaliar sozinho (ex.: erros de português).")]
+    public bool ocultarStatusDaFonte = false;
+
+    [Tooltip("Dica escondida no ícone de lâmpada. Se ficar vazia, o ícone não aparece nesta fase.")]
+    [TextArea(2, 4)]
+    public string dica = "";
 }

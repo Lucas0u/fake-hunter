@@ -17,7 +17,7 @@ public class MenuPrincipal : MonoBehaviour
 
     public void Jogar()
     {
-        ProgressoJogo.faseSelecionada = null;
+        ProgressoJogo.Resetar();
         SceneManager.LoadScene(cenaGameplay);
     }
 
