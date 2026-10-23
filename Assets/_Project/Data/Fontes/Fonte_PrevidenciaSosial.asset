@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d94fe069a2170f445b4696e7d9293021, type: 3}
   m_Name: Fonte_PrevidenciaSosial
   m_EditorClassIdentifier: Assembly-CSharp::Fonte
-  nomeExibido: "Ministerio da Previdência Sosial"
+  nomeExibido: "Ministério da Previdência Social"
   avatar: {fileID: 0}
   status: 1
-  historico: "Pagina oficial do governo federal com as notícias mais importante para os aposentado. Compartilhe com todos os seus contato!"
+  historico: "Canal oficial de informações sobre benefícios do INSS. Aqui você fica sabendo primeiro dos pagamentos e das novidades para aposentados e pensionistas, e pode tirar suas dúvidas atravéz do nosso atendimento."

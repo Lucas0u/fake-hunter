@@ -15,11 +15,11 @@ MonoBehaviour:
   titulo: "Prefeitura vai multar quem não atualizar o CPF até sexta-feira"
   corpo: "Todos os moradores devem atualizar o cadastro do CPF no portal da prefeitura até sexta-feira. Quem não fizer o recadastramento vai pagar multa de R$ 500."
   imagem: {fileID: 21300000, guid: 415ec649204d5ed1dc80c621e5f87e1e, type: 3}
-  nomeCanal: "Site: valeverde-portalofissial.com"
+  nomeCanal: "Site: pauloafonso-cidadao.com"
   data: 25/09/2026
   autor: {fileID: 11400000, guid: 5eae4a450693415e96f3675242326447, type: 2}
-  textoVerificarFonte: "O site imita o visual do portal da prefeitura, mas o endereço não termina em .gov.br. O rodapé diz: \"Prefeitura de Vale Verde – Portal Ofissial. Todos os direito reservado\"."
-  textoPesquisar: "A prefeitura publicou uma nota no site oficial (valeverde.gov.br) avisando que não existe recadastramento de CPF e que esse site é falso."
+  textoVerificarFonte: "A página inicial do site diz: \"Seje bem-vindo ao Portal do Cidadão da Prefeitura Municipal de Paulo Afonso.\""
+  textoPesquisar: "A busca leva à página de recadastramento do mesmo site: \"Para evitar a multa, informe seu CPF, sua data de nascimento e os dados do seu cartão. O processo leva menos de cinco minutos e vale para todos os moradores, sem nenhuma excessão.\""
   veredito: 1
   dificuldade: 2
-  explicacao: "É um golpe para roubar dados pessoais. O site clonado escreve \"Ofissial\" e \"todos os direito reservado\", erros que um portal oficial não cometeria. Na dúvida, digite você mesmo o endereço oficial no navegador em vez de clicar em links."
+  explicacao: "É um golpe para roubar dados. O site imita a prefeitura, mas escreve \"beneficios\" sem acento, \"Seje\" (o certo é \"Seja\") e \"excessão\" (o certo é \"exceção\"). Nenhuma prefeitura pede dados de cartão para recadastramento. O endereço oficial da prefeitura termina em .ba.gov.br: na dúvida, digite você mesmo no navegador."

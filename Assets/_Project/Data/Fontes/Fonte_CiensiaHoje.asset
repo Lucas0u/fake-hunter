@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d94fe069a2170f445b4696e7d9293021, type: 3}
   m_Name: Fonte_CiensiaHoje
   m_EditorClassIdentifier: Assembly-CSharp::Fonte
-  nomeExibido: "Portal Ciênsia Hoje"
+  nomeExibido: "Portal Ciência Hoje"
   avatar: {fileID: 0}
   status: 1
-  historico: "Site de divulgação científica com resumos de estudos do mundo inteiro, traduzido pela nossa equipe."
+  historico: "Portal de divulgação científica que traz, todos os dias, as pesquisas mais recentes do mundo inteiro explicadas de um jeito simples. Nossa missão e levar ciência de qualidade para todos, sem complicação."

@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3240ef2edb1953d459ec51e03bcf5e44, type: 3}
   m_Name: Noticia_CursinhoUFVV
   m_EditorClassIdentifier: Assembly-CSharp::Noticia
-  titulo: "UFVV abre inscrições para cursinho pré-vestibular gratuito"
-  corpo: "A Universidade Federal de Vale Verde abriu 300 vagas para o seu cursinho pré-vestibular gratuito. As inscrições vão até o dia 30 e são feitas apenas pelo site oficial da universidade."
+  titulo: "UFPAF abre inscrições para cursinho pré-vestibular gratuito"
+  corpo: "A Universidade Federal de Paulo Afonso abriu 300 vagas para o seu cursinho pré-vestibular gratuito. As inscrições vão até o dia 30 e são feitas apenas pelo site oficial da universidade."
   imagem: {fileID: 21300000, guid: 415ec649204d5ed1dc80c621e5f87e1e, type: 3}
-  nomeCanal: "Portal oficial: ufvv.edu.br"
+  nomeCanal: "Portal oficial: ufpaf.edu.br"
   data: 24/09/2026
   autor: {fileID: 11400000, guid: ffd13ba767b63065d6438441d7593048, type: 2}
-  textoVerificarFonte: "O edital está publicado em ufvv.edu.br, com número, data e assinatura da Pró-Reitoria de Extensão. O texto não tem erros de português."
-  textoPesquisar: "O Jornal da Cidade e a Secretaria de Educação também divulgaram o cursinho, com o mesmo número de vagas e o mesmo prazo."
+  textoVerificarFonte: "O edital é assinado assim: \"Pró-Reitoria de Extensão da UFPAF. Edital nº 12/2026. Inscrições exclusivamente pelo site ufpaf.edu.br.\""
+  textoPesquisar: "A busca leva ao site ufpaf.edu.br, que diz: \"Estão abertas as inscrições para o cursinho pré-vestibular gratuito da universidade. São 300 vagas, e as inscrições vão até o dia 30.\""
   veredito: 0
   dificuldade: 2
-  explicacao: "A notícia é verdadeira. O edital está no site oficial, tem número e assinatura e foi confirmado por outras fontes confiáveis. Repare também que o texto da fonte é bem escrito: instituições sérias revisam o que publicam."
+  explicacao: "A notícia é verdadeira. O edital está no site oficial, tem número e assinatura, e todos os textos da fonte estão bem escritos. Instituições sérias revisam o que publicam."

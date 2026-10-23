@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d94fe069a2170f445b4696e7d9293021, type: 3}
   m_Name: Fonte_UniversidadeFederal
   m_EditorClassIdentifier: Assembly-CSharp::Fonte
-  nomeExibido: "Universidade Federal de Vale Verde (UFVV)"
+  nomeExibido: "Universidade Federal de Paulo Afonso (UFPAF)"
   avatar: {fileID: 0}
   status: 0
   historico: "Instituição pública de ensino e pesquisa. Publica editais e resultados de estudos em canais oficiais."

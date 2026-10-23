@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d94fe069a2170f445b4696e7d9293021, type: 3}
   m_Name: Fonte_PrefeituraValeVerde
   m_EditorClassIdentifier: Assembly-CSharp::Fonte
-  nomeExibido: "Prefeitura de Vale Verde – Portal Oficial"
+  nomeExibido: "Prefeitura de Paulo Afonso – Portal Oficial"
   avatar: {fileID: 0}
   status: 0
   historico: "Canal oficial da prefeitura, com endereço .gov.br. Publica decretos, avisos e campanhas públicas."

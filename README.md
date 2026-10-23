@@ -19,7 +19,9 @@ manchetes que distorcem estudos reais.
 - **Pontuação**: pontos por acerto multiplicados pela dificuldade, com bônus por sequência.
 - **Explicação**: após cada decisão, o jogo explica por que a notícia era o que era.
 - **Fase final sem status**: na Fase 4, "Consultar Referência" não mostra se a fonte é
-  confiável. As fontes falsas se entregam por erros de português no nome e nos textos.
+  confiável. As fontes falsas copiam nomes de órgãos reais e só se entregam por erros sutis
+  de português nos textos que escrevem (as investigações mostram esses textos sem apontar o erro).
+- **Como jogar** no menu tem duas páginas: regras e selos (sem revelar os números).
 - **Tela de conclusão**: depois da Fase 4, o jogo mostra acertos, erros e pontos de cada fase,
   o total e o aproveitamento, e dá um selo ao jogador:
 
@@ -36,7 +38,9 @@ manchetes que distorcem estudos reais.
 ## Conteúdo
 
 - 4 fases com 6 notícias cada (fácil, média, difícil e a fase final sem status das fontes).
-- 15 fontes com histórico e status (confiável, não confiável, desconhecida).
+- 20 fontes com histórico e status (confiável, não confiável, desconhecida). Nas fases 2 e 3,
+  a maioria das fontes tem status desconhecido, para o jogador depender da investigação.
+- O jogo se passa em Paulo Afonso (BA).
 - Todo o conteúdo é feito em ScriptableObjects (`Assets/_Project/Data`), sem precisar
   mexer em código para criar novas notícias: `Create > FakeHunter > Noticia / Fonte / FaseDeNoticias`.
 

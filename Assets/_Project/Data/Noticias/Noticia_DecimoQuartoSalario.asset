@@ -18,8 +18,8 @@ MonoBehaviour:
   nomeCanal: "WhatsApp (corrente encaminhada)"
   data: 20/09/2026
   autor: {fileID: 11400000, guid: fbb747892a244dbe8494868d430bc8a7, type: 2}
-  textoVerificarFonte: "A mensagem termina assim: \"Atenciosamente, Ministerio da Previdência Sosial – orgão do governo federal\". O nome do órgão aparece escrito errado e sem acentos."
-  textoPesquisar: "O INSS publicou um alerta dizendo que não existe 14º salário aprovado e que nunca pede confirmação de cadastro por link de WhatsApp."
+  textoVerificarFonte: "A mensagem é assinada assim: \"Ministério da Previdência Social – Atendimento ao Segurado. Confirme seus dados à partir de hoje pelo link abaixo.\""
+  textoPesquisar: "A busca leva ao site informado na mensagem, que diz: \"Os aposentados que não confirmarem o cadastro até o dia 30 terão o benefício suspenso. A confirmação é rápida e gratuíta.\""
   veredito: 1
   dificuldade: 2
-  explicacao: "É um golpe. Órgãos públicos não escrevem o próprio nome errado: \"Sosial\" e \"Ministerio\" sem acento denunciam a fraude. Além disso, o link pede dados pessoais, um golpe clássico para roubar informações de aposentados."
+  explicacao: "É um golpe. O nome do ministério está certo, mas os textos da fonte têm erros que um órgão oficial não cometeria: \"atravéz\" (o certo é \"através\"), \"à partir\" (não leva crase) e \"gratuíta\" (não tem acento). O link ainda pede dados pessoais, um golpe clássico contra aposentados: o INSS não pede confirmação de cadastro por WhatsApp."

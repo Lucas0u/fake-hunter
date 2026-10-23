@@ -15,11 +15,11 @@ MonoBehaviour:
   titulo: "Loja liquida celulares com 90% de desconto só hoje, clique e garanta o seu"
   corpo: "A maior loja de eletrônicos do país está queimando estoque: smartphone de última geração por R$ 199! Só até meia-noite, corre no link!"
   imagem: {fileID: 21300000, guid: aac24d0cad6789e633fd64e1593c84b2, type: 3}
-  nomeCanal: "Instagram @fofocasdacidade (publicidade)"
+  nomeCanal: "Instagram @achadinhosdodia (publicidade)"
   data: 13/09/2026
-  autor: {fileID: 11400000, guid: 7555cb5a02e1e94ff23cfd07a172c168, type: 2}
-  textoVerificarFonte: "A página foi paga para divulgar. O link leva a um site com endereço estranho, cheio de erros de português, que pede o número do cartão logo na primeira tela."
+  autor: {fileID: 11400000, guid: b733247cd41c4c8fb8de00805c183deb, type: 2}
+  textoVerificarFonte: "A publicação é paga. O link leva a um site com endereço estranho, que pede o número do cartão logo na primeira tela."
   textoPesquisar: "A loja verdadeira publicou um alerta dizendo que não tem promoção desse tipo e que o site é falso. Consumidores relatam ter perdido dinheiro."
   veredito: 1
   dificuldade: 2
-  explicacao: "Oferta boa demais para ser verdade, urgência (só até meia-noite) e site que pede o cartão de imediato: golpe clássico. Páginas de fofoca costumam aceitar anúncios sem checar. Compartilhar poderia fazer sua comunidade cair no golpe."
+  explicacao: "Oferta boa demais para ser verdade, urgência (só até meia-noite) e site que pede o cartão de imediato: golpe clássico. Perfis de promoção costumam aceitar anúncios sem checar. Compartilhar poderia fazer sua comunidade cair no golpe."

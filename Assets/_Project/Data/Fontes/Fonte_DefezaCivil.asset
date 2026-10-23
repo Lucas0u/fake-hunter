@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d94fe069a2170f445b4696e7d9293021, type: 3}
   m_Name: Fonte_DefezaCivil
   m_EditorClassIdentifier: Assembly-CSharp::Fonte
-  nomeExibido: "Defeza Civil de Vale Verde"
+  nomeExibido: "Defesa Civil de Paulo Afonso"
   avatar: {fileID: 0}
   status: 1
-  historico: "Perfil de alerta á população. Avisamos primeiro que todo mundo, siga a página e ative as notificação."
+  historico: "Perfil criado para avisar a população sobre enchentes, deslizamentos e outras emergências. Ative as notificações para receber os alertas assim que forem emitidos e fique sempre atento as nossas publicações."

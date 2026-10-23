@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d94fe069a2170f445b4696e7d9293021, type: 3}
   m_Name: Fonte_PortalOfissial
   m_EditorClassIdentifier: Assembly-CSharp::Fonte
-  nomeExibido: "Prefeitura de Vale Verde – Portal Ofissial"
+  nomeExibido: "Prefeitura de Paulo Afonso – Portal do Cidadão"
   avatar: {fileID: 0}
   status: 1
-  historico: "Canal de atendimento da prefeitura. Mantenha seus dados atualisados para não perder seus benefício."
+  historico: "Canal de atendimento ao cidadão. Mantenha seu cadastro atualizado para continuar recebendo os serviços e beneficios da prefeitura sem nenhuma interrupção."

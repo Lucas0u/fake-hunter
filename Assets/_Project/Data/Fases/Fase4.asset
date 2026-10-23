@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Fase4
   m_EditorClassIdentifier: Assembly-CSharp::FaseDeNoticias
   nomeFase: "Fase 4 – Olho clínico"
-  descricao: "Última fase! A ficha das fontes não mostra mais se elas são confiáveis. Desconfie de quem escreve errado."
+  descricao: "Última fase! A ficha das fontes não mostra mais se elas são confiáveis. Leia com atenção tudo o que elas escrevem."
   noticias:
   - {fileID: 11400000, guid: 08e90b100cca475d89a2c4fd55778237, type: 2}
   - {fileID: 11400000, guid: 86d42053978c414f81e1fc1121a9358a, type: 2}
@@ -24,4 +24,4 @@ MonoBehaviour:
   embaralhar: 0
   proximaFase: {fileID: 0}
   ocultarStatusDaFonte: 1
-  dica: "Nesta fase a ficha da fonte não mostra se ela é confiável. Veículos e órgãos sérios revisam o que publicam: erros de português no nome ou nos textos da fonte são sinal de golpe."
+  dica: "Nesta fase a ficha da fonte não mostra se ela é confiável. Leia com atenção tudo o que a fonte escreve: quem é sério revisa o que publica."

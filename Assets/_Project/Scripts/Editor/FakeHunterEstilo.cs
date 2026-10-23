@@ -44,7 +44,9 @@ public static class FakeHunterEstilo
         { "BTN_Jogar",               new Estilo("verde",    "jogar",                400, 104, 40) },
         { "BTN_ComoJogar",           new Estilo("azul",     "ajuda",                400, 104, 40) },
         { "BTN_Sair",                new Estilo("vermelho", "sair",                 400, 104, 40) },
-        { "BTN_FecharComoJogar",     new Estilo("amarelo",  "fechar",               260, 80, 28) },
+        { "BTN_FecharComoJogar",     new Estilo("amarelo",  "fechar",               230, 80, 28) },
+        { "BTN_VerSelos",            new Estilo("azul",     "proxima",              230, 80, 28, true) },
+        { "BTN_VoltarRegras",        new Estilo("azul",     "voltar",               230, 80, 28) },
         // Gameplay - tela de conclusão
         { "BTN_JogarDoInicio",       new Estilo("azul",     "repetir",              340, 84, 30) },
         { "BTN_MenuConclusao",       new Estilo("amarelo",  "menu",                 340, 84, 30) },

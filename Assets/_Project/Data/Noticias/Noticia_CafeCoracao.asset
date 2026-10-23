@@ -15,11 +15,11 @@ MonoBehaviour:
   titulo: "Estudo prova que 10 xícaras de café por dia protegem o coração"
   corpo: "Cientistas descobriram que o café faz bem para o coração. Segundo o estudo, quem toma 10 xícaras por dia nunca vai ter problemas cardíacos."
   imagem: {fileID: 21300000, guid: 49bbb6d363e2bd373cccf469abe62438, type: 3}
-  nomeCanal: "Site: ciensiahoje.net"
+  nomeCanal: "Site: portalcienciahoje.net"
   data: 23/09/2026
   autor: {fileID: 11400000, guid: 22d4719b967546a894c38398457a934b, type: 2}
-  textoVerificarFonte: "O site assina como \"Portal Ciênsia Hoje\" e diz que os estudos são \"traduzido pela nossa equipe\". Os erros são discretos, mas estão lá."
-  textoPesquisar: "O estudo existe, mas encontrou só um efeito pequeno em quem toma de 2 a 3 xícaras por dia. Os próprios pesquisadores alertam que café em excesso pode fazer mal."
+  textoVerificarFonte: "O texto é assinado por \"Redação Ciência Hoje\". No rodapé do site: \"Todo o conteúdo é revisado por especialistas afim de garantir a qualidade das informações.\""
+  textoPesquisar: "A busca leva ao resumo que o portal fez do artigo original: \"Os pesquisadores acompanharam milhares de pessoas e concluiram que o café está ligado a um coração mais saudável.\""
   veredito: 2
   dificuldade: 2
-  explicacao: "É parcialmente verdadeira: o estudo é real, mas a manchete exagera e inventa a parte das 10 xícaras. A fonte também se entrega pelos erros: \"Ciênsia\" com S e \"estudos traduzido\" sem concordância. Exagerar um estudo verdadeiro continua sendo desinformação."
+  explicacao: "É parcialmente verdadeira: o estudo existe, mas encontrou só um efeito pequeno em quem toma de 2 a 3 xícaras por dia. A parte das 10 xícaras foi inventada. A fonte também se entrega: \"missão e levar\" (o certo é \"missão é levar\"), \"afim de\" (o certo é \"a fim de\") e \"concluiram\" sem acento. Exagerar um estudo verdadeiro continua sendo desinformação."

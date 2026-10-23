@@ -49,6 +49,18 @@ public static class Classificacao
         }
     }
 
+    // Texto curto, sem números, usado na página "Selos" do menu Como jogar.
+    public static string DescricaoCurta(Selo s)
+    {
+        switch (s)
+        {
+            case Selo.Especialista: return "Não deixou nenhuma fake news escapar.";
+            case Selo.CacadorVoraz: return "Pegou quase todas as fake news.";
+            case Selo.CacadorVegetariano: return "Caçou algumas, mas deixou muitas escaparem.";
+            default: return "As fake news levaram a melhor.";
+        }
+    }
+
     public static Color Cor(Selo s)
     {
         switch (s)

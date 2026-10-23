@@ -17,8 +17,8 @@ MonoBehaviour:
   imagem: {fileID: 21300000, guid: aac24d0cad6789e633fd64e1593c84b2, type: 3}
   nomeCanal: "Facebook (página Saúde Sem Segredos)"
   data: 09/09/2026
-  autor: {fileID: 11400000, guid: 37dd0f0233fdb45e728f82a71043188f, type: 2}
-  textoVerificarFonte: "A página pertence ao mesmo dono do perfil Dr. Saúde Natural, que vende adesivos anti-radiação para celular."
+  autor: {fileID: 11400000, guid: 80e04f54c695454aac34f7472f5a0ede, type: 2}
+  textoVerificarFonte: "A página não informa quem escreve os textos. Na aba de loja, ela vende adesivos anti-radiação para celular."
   textoPesquisar: "O estudo existe, mas foi feito em ratos expostos a níveis de radiação muito maiores que os de um celular. Os próprios autores dizem que não dá para concluir o mesmo em humanos. A OMS classifica a evidência como limitada."
   veredito: 2
   dificuldade: 1

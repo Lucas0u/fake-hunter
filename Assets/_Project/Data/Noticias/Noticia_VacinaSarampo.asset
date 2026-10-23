@@ -18,8 +18,8 @@ MonoBehaviour:
   nomeCanal: "Portal oficial: gov.br/saude"
   data: 21/09/2026
   autor: {fileID: 11400000, guid: c694c7bc4e341392c4b5dbf64f28dbb2, type: 2}
-  textoVerificarFonte: "O comunicado foi publicado no endereço oficial gov.br/saude e é assinado pela Secretaria de Vigilância em Saúde. O texto está bem escrito, sem nenhum erro de digitação."
-  textoPesquisar: "As secretarias de saúde do estado e da cidade divulgaram a mesma data, e os postos de Vale Verde já mostram cartazes da campanha."
+  textoVerificarFonte: "O comunicado é assinado assim: \"Ministério da Saúde – Secretaria de Vigilância em Saúde. Mais informações em gov.br/saude.\""
+  textoPesquisar: "A busca leva ao site gov.br/saude, que diz: \"A campanha nacional de vacinação contra o sarampo começa na segunda-feira. Crianças de 6 meses a 5 anos devem ir a uma unidade de saúde com a caderneta de vacinação.\""
   veredito: 0
   dificuldade: 2
-  explicacao: "A notícia é verdadeira: vem do canal oficial, foi confirmada por outros órgãos e o texto foi revisado com cuidado. Comunicados oficiais passam por revisão antes de serem publicados, por isso quase nunca têm erros de português."
+  explicacao: "A notícia é verdadeira. O comunicado vem do canal oficial e todos os textos da fonte estão corretos, sem nenhum erro de português. Comunicados oficiais passam por revisão antes de serem publicados."

@@ -15,10 +15,10 @@ MonoBehaviour:
   titulo: "Novo vírus rouba dados do celular por mensagens de Bom Dia"
   corpo: "Hackers estão usando as imagens de bom dia para instalar um vírus que rouba senhas bancárias. Apague todas as imagens de bom dia que você recebeu e avise todo mundo!"
   imagem: {fileID: 21300000, guid: 49bbb6d363e2bd373cccf469abe62438, type: 3}
-  nomeCanal: "Blog Verdade Oculta"
+  nomeCanal: "Canal Dicas de Tecnologia (vídeo encaminhado)"
   data: 08/09/2026
-  autor: {fileID: 11400000, guid: 01fe8150aa5721ff66a23d1fada69b6d, type: 2}
-  textoVerificarFonte: "O blog não tem autor identificado e a página está cheia de anúncios. Não cita nenhuma empresa de segurança digital."
+  autor: {fileID: 11400000, guid: 5b1c079c94214ca09e5498bd93deddc4, type: 2}
+  textoVerificarFonte: "O canal não informa quem são os responsáveis e não cita nenhuma empresa de segurança digital."
   textoPesquisar: "Especialistas em segurança explicam que uma imagem comum não instala programas sozinha. Agências de checagem já classificaram esse boato como falso em vários países."
   veredito: 1
   dificuldade: 1

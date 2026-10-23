@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f166218549345e4f969a1d4f5e8cc02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PainelNoticia
-  faseAtual: {fileID: 11400000, guid: 7ade2976ff9240de82b7e8a6d153cf3b, type: 2}
+  faseAtual: {fileID: 11400000, guid: 1082dcfc59e6fbd42aeafac8e98fc7b4, type: 2}
   investigacoesPorNoticia: 2
   txtTitulo: {fileID: 100000039}
   txtCorpo: {fileID: 100000043}
@@ -1094,7 +1094,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 22, y: 140}
+  m_AnchoredPosition: {x: 41, y: 124}
   m_SizeDelta: {x: 1000, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &100000038
@@ -1191,7 +1191,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -123.22412, w: 0}
+  m_margin: {x: 0, y: 0, z: -99.170044, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1580,7 +1580,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 95, y: 30}
+  m_AnchoredPosition: {x: 6, y: 44}
   m_SizeDelta: {x: 700, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &100000054
@@ -1677,7 +1677,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 108.5625, w: 0}
+  m_margin: {x: 0, y: 0, z: -55.64209, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
