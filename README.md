@@ -49,6 +49,7 @@ O mesmo arquivo lista as artes que faltam, melhorias de código e tarefas do rep
 ## Documentação
 
 - [PENDENCIAS.md](PENDENCIAS.md) – checklist de verificação e tudo que ainda falta.
+- [BRIEFING_PORTE.md](BRIEFING_PORTE.md) – especificação completa do jogo (regras, dados, telas) para portar para outro framework.
 - [COMO_CONFIGURAR.md](COMO_CONFIGURAR.md) – como ligar os novos campos no Inspector.
 - [PROMPTS_IMAGENS.md](PROMPTS_IMAGENS.md) – lista de imagens necessárias, tamanhos e prompts.
 
